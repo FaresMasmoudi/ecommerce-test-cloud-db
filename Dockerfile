@@ -7,3 +7,6 @@ ENV MYSQL_DATABASE=shop_db
 
 # Copy the SQL script into the Docker image
 COPY shop_db.sql /docker-entrypoint-initdb.d/
+
+# Expose port 3306
+EXPOSE 3306
