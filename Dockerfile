@@ -2,7 +2,7 @@
 FROM mysql:8.0
 
 # Set the required environment variables
-ENV MYSQL_ROOT_PASSWORD=password
+ENV MYSQL_ROOT_PASSWORD=test
 ENV MYSQL_DATABASE=shop_db
 
 # Copy the SQL script into the Docker image
